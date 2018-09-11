@@ -1,17 +1,14 @@
+## Introduction
 This repository contains the implementation of the algorithm proposed in the following paper-
 SedanSpot: Detecting Anomalies in Edge Stream. Dhivya Eswaran, Christos Faloutsos. ICDM 2018.
 
 
--------------
-Input format:
--------------
+##Input format
 Each line is an edge
 <time (int), source (str), destination (str), weight (float), label (str)>
 The edges should be sorted in non-decreasing order of their time stamps.
 
------------
-Parameters:
------------
+## Parameters
 ./bin/SedanSpot --help
 Allowed options:
   --help                                produce help message
@@ -24,9 +21,7 @@ Allowed options:
                                         random walk's restart probability
   --seed arg (=1)                       control the randomness
 
----------------
-To get started:
----------------
+## Getting started
 (1) Install Boost C++ library on your machine.
 (2) Change line 16 of Makefile to link to your Boost installation.
 (3) Run "make" to compile code and create the binary.
