@@ -6,16 +6,13 @@ This implementation is based on the following paper - [SedanSpot: Detecting Anom
 ## Getting started
 1. Install Boost C++ library on your machine.
 2. Change line 16 of Makefile to link to your Boost installation.
-3. Run "make" to compile code and create the binary.
-4. Run "make test" to do (3) and run code on the example dataset.
-5. Run "make clean" to clean binaries and outputs.
+3. Run `make` to compile code and create the binary.
+4. Run `make test` to do the above step and run code on the example dataset.
+5. Run `make clean` to clean binaries and outputs.
 
 Note: The Makefile has currently only been tested on MacOS and may require some changes for the other OS.
 
 ## Command line options
-`./bin/SedanSpot --help`
-
-Allowed options:
   * `--help`: produce help message
   * `--input`: input file name
   * `--delimiter`: column separator in input file (default: ,)
