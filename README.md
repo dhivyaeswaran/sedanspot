@@ -1,6 +1,5 @@
-## Introduction
-This repository contains the implementation of the algorithm proposed in the following paper-
-SedanSpot: Detecting Anomalies in Edge Stream. Dhivya Eswaran, Christos Faloutsos. ICDM 2018.
+# SEDANSPOT
+SOAR, short for Streaming EDge ANomaly SPOTter, is a principled randomized algorithm to detect anomalies in a stream of edges in near real-time using bounded memory (sublinear in graph size). This implementation is based on the following paper - [SedanSpot: Detecting Anomalies in Edge Stream](http://www.cs.cmu.edu/~deswaran/papers/icdm18-sedanspot.pdf). *Dhivya Eswaran, Christos Faloutsos*. ICDM 2018.
 
 
 ##Input format
@@ -28,4 +27,4 @@ Allowed options:
 (4) Run "make test" to do (3) and run code on the example dataset.
 (5) Run "make clean" to clean binaries and outputs.
 
-Makefile has currently only been tested on MacOS and may require some changes for the other OS.
+The Makefile has currently only been tested on MacOS and may require some changes for the other OS.
