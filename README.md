@@ -1,7 +1,7 @@
 # SedanSpot
 SedanSpot, short for Streaming EDge ANomaly SPOTter, is a principled randomized algorithm to detect anomalies from an edge stream in near real-time using bounded memory (sublinear in graph size). Here, anomalies are edges connecting sparsely-connected parts of the graph (bridge edges) and possible occuring during intense bursts of activity. 
 
-This implementation is based on the following paper - [SedanSpot: Detecting Anomalies in Edge Stream](http://www.cs.cmu.edu/~deswaran/papers/icdm18-sedanspot.pdf). *Dhivya Eswaran, Christos Faloutsos*. ICDM 2018.
+This implementation is based on the following paper - [SedanSpot: Detecting Anomalies in Edge Streams](http://www.cs.cmu.edu/~deswaran/papers/icdm18-sedanspot.pdf). *Dhivya Eswaran, Christos Faloutsos*. ICDM 2018.
 
 ## Getting started
 1. Install Boost C++ library on your machine.
@@ -10,7 +10,7 @@ This implementation is based on the following paper - [SedanSpot: Detecting Anom
 4. Run `make test` to do the above step and run code on the example dataset.
 5. Run `make clean` to clean binaries and outputs.
 
-Note: The Makefile has currently only been tested on MacOS and may require some changes for the other OS.
+Note: The Makefile has currently only been tested on MacOS and may require some changes for the other operating systems.
 
 ## Command line options
   * `--help`: produce help message
